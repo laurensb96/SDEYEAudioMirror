@@ -10,6 +10,7 @@ Provider=%OrganizationName% ; defined later in Strings section
 CatalogFile=AudioMirror.cat
 DriverVer= ; set DriverVer in stampinf property pages
 DriverPackageDisplayName=%DriverDisplayName%
+PnpLockdown=1
 
 [DestinationDirs]
 DefaultDestDir = 12 ; DIRID_DRIVERS

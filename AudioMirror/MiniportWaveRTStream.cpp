@@ -402,7 +402,7 @@ NTSTATUS MiniportWaveRTStream::AllocateBufferWithNotification
 	m_ulNotificationIntervalMs = ulBufferDurationMs / NotificationCount_;
 
 	m_RingBuffer = new(NonPagedPoolNx, MINWAVERTSTREAM_POOLTAG)RingBuffer;
-	m_RingBuffer->Init(m_ulDmaBufferSize * 4, m_pWfExt->Format.nBlockAlign);
+	m_RingBuffer->Init((ULONGLONG) m_ulDmaBufferSize * 8);
 
 	*AudioBufferMdl_ = pBufferMdl;
 	*ActualSize_ = RequestedSize_;

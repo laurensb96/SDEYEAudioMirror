@@ -1,2 +1,2 @@
-cd /d "C:\Users\Jannes Peters\Documents\Visual Studio 2017\Projects\Bachelor Thesis\vs_project\AudioMirror" &msbuild "AudioMirror.vcxproj" /t:sdvViewer /p:configuration="Release" /p:platform="x64" /p:SolutionDir="C:\Users\Jannes Peters\Documents\Visual Studio 2017\Projects\Bachelor Thesis\vs_project" 
-exit %errorlevel% 
+cd /d "C:\Users\laure\source\repos\AudioMirror\AudioMirror" &&msbuild "AudioMirror.vcxproj" /t:sdv /p:inputs="/check /devenv" /p:configuration="Release" /p:platform="x64" /p:SolutionDir="C:\Users\laure\source\repos\AudioMirror" 
+exit 0 

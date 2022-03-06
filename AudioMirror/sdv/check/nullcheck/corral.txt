@@ -1,0 +1,32 @@
+Running EngineQ (akashl-7-9-2014)
+Alias Analysis: 2,8575446 s
+Running FastAvn: C:\Program Files (x86)\Windows Kits\10\TOOLS\SDV\bin\engine\engineq\corral\..\Corral\FastAvn.exe test.bpl   /hopt:useEntryPoints /hopt:unknownProc:__HAVOC_malloc /aopt:sdv /aopt:blockOnFreeVars /aopt:timeout:100 /aopt:noEbasic /aopt:EE:ignoreAllAssumes+ /aopt:dontGeneralize /aopt:EE:dontDisplayComparisonsWithConsts+  /aopt:traceSlicing  /numThreads:3  /killAfter:2940 
+[TAG: AV_DEBUG] Found AngelicVerifierNull.exe at: C:\Program Files (x86)\Windows Kits\10\TOOLS\SDV\bin\engine\engineq\Corral\AngelicVerifierNull.exe
+[TAG: AV_DEBUG] Found AvHarnessInstrumentation.exe at: C:\Program Files (x86)\Windows Kits\10\TOOLS\SDV\bin\engine\engineq\Corral\AvHarnessInstrumentation.exe
+[TAG: AV_OUTPUT] ----- Run FastAVN on test.bpl with k=-1 ------
+[hinst] [TAG: AV_STATS] #Procs : 213
+[hinst] [TAG: AV_STATS] #EntryPoints : 140
+[hinst] [TAG: AV_STATS] #AssertsBeforeAA : 1328
+[hinst] Running alias analysis
+[hinst] Using global value numbering
+[hinst] AA: Cycle elimination found 0 cycles
+[hinst] Pruning away 140 entry points as they cannot reach an assert
+[hinst] [TAG: AV_STATS] #AssertsAfterAA : 0
+[hinst] [TAG: AV_STATS] *************** STATS ***************
+[hinst] [TAG: AV_STATS] gvn(s) : 0,1893307
+[hinst] [TAG: AV_STATS] read.write(s) : 2,289552
+[hinst] [TAG: AV_STATS] ssa(s) : 0,1590774
+[hinst] [TAG: AV_STATS] fixpoint(s) : 0,1346786
+[hinst] [TAG: AV_STATS] alias.analysis(s) : 3,7124667
+[hinst] [TAG: AV_STATS] *************************************
+[hinst] [TAG: AV_STATS] TotalTime(ms) : 15352
+[hinst] 
+No entrypoints. All verified.
+[TAG: AV_OUTPUT] ========= Merged Bugs for 0 Entry Points =========
+[TAG: AV_OUTPUT] Description,Src File,Line,Procedure,Fail Status
+[TAG: AV_STATS] *************** STATS ***************
+[TAG: AV_STATS] fastavn(s) : 16,6787732
+[TAG: AV_STATS] *************************************
+
+EngineQ: 0 bugs found
+Done

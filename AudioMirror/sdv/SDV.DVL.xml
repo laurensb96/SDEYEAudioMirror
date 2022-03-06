@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Data> 
+<AssessmentScore ScoreName="AudioMirror.x64.General.XMLTimeStamp" ScoreValue="0" ScoreUnit="03/06/2022 12:06:54" />
+<AssessmentScore ScoreName="AudioMirror.x64.General.DriverBinary" ScoreValue="0" ScoreUnit="AudioMirror.sys" />
+<AssessmentScore ScoreName="AudioMirror.x64.General.BinaryTimeStamp" ScoreValue="0" ScoreUnit="01/01/1601 01:00:00" />
+<AssessmentScore ScoreName="AudioMirror.x64.General.DriverType" ScoreValue="0" ScoreUnit="generic" />
+<AssessmentScore ScoreName="AudioMirror.x64.General.DriverSize" ScoreValue="0" ScoreUnit="LOC" />
+<AssessmentScore ScoreName="AudioMirror.x64.General.DriverVersion" ScoreValue="0" ScoreUnit="0" />
+<AssessmentScore ScoreName="AudioMirror.x64.General.Libs" ScoreValue="0" ScoreUnit="Number of external libraries used" />
+<AssessmentScore ScoreName="AudioMirror.x64.SDV.Version" ScoreValue="0" ScoreUnit="sdv-2021-03-16" />
+<AssessmentScore ScoreName="AudioMirror.x64.SDV.ActiveRuleTotal" ScoreValue="4" ScoreUnit="Total rules available" />
+<AssessmentScore ScoreName="AudioMirror.x64.SDV.Rule.doublefetch" ScoreValue="6" ScoreUnit="SDV_TOOLERROR" />
+<AssessmentScore ScoreName="AudioMirror.x64.SDV.Rule.nullcheck" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="AudioMirror.x64.SDV.Rule.useafterfree" ScoreValue="6" ScoreUnit="SDV_TOOLERROR" />
+<AssessmentScore ScoreName="AudioMirror.x64.SDV.Rule.checkirql" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+</Data>

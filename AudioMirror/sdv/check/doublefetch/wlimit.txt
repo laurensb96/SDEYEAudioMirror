@@ -1,0 +1,21 @@
+wlimit> Executing...
+wlimit>  log events: no
+wlimit>  allow process to breakaway: yes
+wlimit>  die in case of an unhandled exception: no
+wlimit>  ignore control-c: yes
+wlimit>  spare child processes' life at exit: no
+wlimit>  job wall clock time limit (secs): -
+wlimit>  job total user time limit (secs): -
+wlimit>  job memory limit (Mb): -
+wlimit>  job command: '"slam" -no_slamcl -rerun -platform generic -target x86_amd64 -halt_labels -gate RunDispatchFunction -driver -arrays -no_pa 3 -field_pa_version nocollapse -max_fields_nocollapse 100 -driver -arrays -no_pa 3 -field_pa_version nocollapse -max_fields_nocollapse 100 -halt_labels -gate RunDispatchFunction -driver -arrays -no_pa 3 -field_pa_version nocollapse -max_fields_nocollapse 100 -sourcedir C:\Users\laure\source\repos\AudioMirror\AudioMirror -sdvpath C:\Users\laure\source\repos\AudioMirror\AudioMirror\sdv -display_environment doublefetch.fsm -tune_entry_points SDV-map.h'
+
+wlimit> Finished:
+wlimit>  Status: 0 (Success)
+wlimit>  Exit code: 2
+wlimit>  TotalWallClockTime: 70032 ms
+wlimit>  TotalUserTime: 17000 ms
+wlimit>  TotalKernelTime: 9984 ms
+wlimit>  TotalProcesses: 1
+wlimit>  TotalTerminatedProcesses: 0
+wlimit>  PeakProcessMemoryUsed : 1570 Mb
+wlimit>  PeakJobMemoryUsed : 1570 Mb

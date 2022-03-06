@@ -1,0 +1,33 @@
+Running EngineQ (akashl-7-9-2014)
+Alias Analysis: 0,0165907 s
+Running PropInst with: C:\Program Files (x86)\Windows Kits\10\TOOLS\SDV\bin\engine\engineq\corral\..\Corral\PropInst.exe local_checkirql.avp test.bpl test_inst.bpl
+Running FastAvn: C:\Program Files (x86)\Windows Kits\10\TOOLS\SDV\bin\engine\engineq\corral\..\Corral\FastAvn.exe  test_inst.bpl   /hopt:useEntryPoints /hopt:unknownType:IrqlType /hopt:unknownType:int /hopt:unknownProc:__HAVOC_malloc /aopt:sdv /aopt:blockOnFreeVars /aopt:timeout:100 /aopt:noEbasic /aopt:EE:ignoreAllAssumes+ /aopt:dontGeneralize /aopt:EE:dontDisplayComparisonsWithConsts- /aopt:EE:onlyDisplayAliasingInPre- /killAfter:4500 /aopt:recordVar:irql_current /aopt:copt:recursionBound:10 /aopt:timeoutEE:50  /numThreads:3 
+[TAG: AV_DEBUG] Found AngelicVerifierNull.exe at: C:\Program Files (x86)\Windows Kits\10\TOOLS\SDV\bin\engine\engineq\Corral\AngelicVerifierNull.exe
+[TAG: AV_DEBUG] Found AvHarnessInstrumentation.exe at: C:\Program Files (x86)\Windows Kits\10\TOOLS\SDV\bin\engine\engineq\Corral\AvHarnessInstrumentation.exe
+[TAG: AV_OUTPUT] ----- Run FastAVN on test_inst.bpl with k=-1 ------
+[hinst] [TAG: AV_STATS] #Procs : 220
+[hinst] [TAG: AV_STATS] #EntryPoints : 140
+[hinst] [TAG: AV_STATS] #AssertsBeforeAA : 20
+[hinst] Running alias analysis
+[hinst] Using global value numbering
+[hinst] AA: Cycle elimination found 0 cycles
+[hinst] Pruning away 140 entry points as they cannot reach an assert
+[hinst] [TAG: AV_STATS] #AssertsAfterAA : 0
+[hinst] [TAG: AV_STATS] *************** STATS ***************
+[hinst] [TAG: AV_STATS] gvn(s) : 0,1815249
+[hinst] [TAG: AV_STATS] read.write(s) : 0,5084635
+[hinst] [TAG: AV_STATS] ssa(s) : 0,1688377
+[hinst] [TAG: AV_STATS] fixpoint(s) : 0,1795724
+[hinst] [TAG: AV_STATS] alias.analysis(s) : 2,5140206
+[hinst] [TAG: AV_STATS] *************************************
+[hinst] [TAG: AV_STATS] TotalTime(ms) : 13465
+[hinst] 
+No entrypoints. All verified.
+[TAG: AV_OUTPUT] ========= Merged Bugs for 0 Entry Points =========
+[TAG: AV_OUTPUT] Description,Src File,Line,Procedure,Fail Status
+[TAG: AV_STATS] *************** STATS ***************
+[TAG: AV_STATS] fastavn(s) : 15,0704418
+[TAG: AV_STATS] *************************************
+
+EngineQ: 0 bugs found
+Done
